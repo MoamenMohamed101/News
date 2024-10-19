@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 49,
+  "articles": [
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Investopedia",
+      "title": "Dow Jones Today: Stocks Rise as Banks Jump on Strong Earnings; Nvidia Leads Chipmaker Rebound - Investopedia",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBTZ0JfdzFUNkxjRF9lRXNoVWxFOW9aWXdPX2U0ejVNamFzNXQwdks5WUVRem04S0RsNFZjQUpuM09BemV3cjgtT2RnMkZPSjlKS3Aza3k4RUZWcTN5M1g4WlBIeFdCTmJkQ0RmQjJR?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T17:51:45Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "CNBC",
+      "title": "Dow rises 200 points as it tries to recover from Tuesday's losses: Live updates - CNBC",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ieXVMS09DalcwR2xEczI0akcxdHFBQUF3LXpMMktNdkFGUkd4ZzlDQWpTZV9QdEFaLXJGSDlMOF9YU1MxZU1SeUE5dnZ1Nm9ucVprQnZVQzBOQVBkQk5vUXlsRF9DVDJfbVFZTTN0NUg5WmZGeTlJ0gF8QVVfeXFMUG9QNU9mRVZ5UGViNWp3dVFGc1BuTUtsT05ZcTVsdjVIa1lNNmdQTU1Sd2tCLUtoaUtqU2VOU3hiS0R5RjQteE1ZZlRYUHJMMDJJSVdLTkdtaS1rSjNDZWd6UGwwYTZBRGhrUFJGcTZEQ1dtbHBOWGdTTUdwRg?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T17:48:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Yahoo Finance",
+      "title": "Netflix earnings preview: Investors eye potential price hikes as stock trades near all-time highs - Yahoo Finance",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSW50TW9Oc0RTc2lkX21rT2txcWUtMkx5YVdvN0ZKVEs3SVJOaS1iU2t2Z1hnbmtYdHlSVWVQWHBQcGw3SXh0M1NfTmhEa2FFSFFua0p2eWl5RjRSMzBJSU1SZ1RxTE4wMVp4dHdCQmF4Q1FRaXA3T0lkbjJPUlJGdWoybmdwR0NpeE5rbFVfTjM3ZmlhbkVOUjlmRlhGZnIzVm53OEwzeTZERzZTZ3VxejVNU1FQTUl2MEgybkFITHRYc0QwaFZOWFcxcnRaVU5lSnY5LXJJOGYtZw?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T17:27:28Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "The Associated Press",
+      "title": "Listeria recall grows to 12 million pounds of meat and poultry, some of it sent to US schools - The Associated Press",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOczYxTVB6V1ZnWE9PREkwSERoVGVhaDJQRkpFRlluMGpMVXBSSUVMei1uVHM1alBzX2U3SlgxcDQ2dHE5b2FfcHlYclotbnN4X2Q3YU83cGRfRFdrNkE0MEtzOHh1dkc2R3YxU0tzMlpuQkVSYW1UMkozYk8wU1hNbE1rUFVwOGVscmIxRkdZeXRQTHM?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T17:10:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "USA TODAY",
+      "title": "Two SSI checks are coming in November, but none in December. You can blame the calendar. - USA TODAY",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdU9RWGNPa1hjQVpFVE5ZbVM3SVJXUEdqM0JKREc4YWpOWUdfanhTMFp2YVl0WHFKTlRwNl9pSlZJM0kyS1J0UGVYdU5BWmdnYVA2TTBuLVJvMno0QWotQmFsNjdkc3FubWhTeE9FSUlWSVBrejNBclh2Zi05NDlEaXQzYXhfSGRIaVJiU3pR?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T16:47:52Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "The Verge",
+      "title": "Amazon looks to advanced nuclear reactors to meet climate goals - The Verge",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSVB2SFRINUNqbElwVjhhdUl3NU9USXYzaFVCQWpuVXNTVFRHNWgzdVZsU2I1WUk1REVzNThUTk5aUXFIYndkMFlPUzh4NEhINllEVk9sc1UtU1p5SlpvX21PaGRya0VSSHdrNVNUaDVEYW9wU2FIN01FQ09OZ2lZRUxOcTlBb1JUYnQzTw?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T16:36:06Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Yahoo Finance",
+      "title": "Crypto stocks rally, bitcoin climbs to $67K on Harris policy - Yahoo Finance",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQ013b3NIQ2l5QVFwbGF2VHlFTDRFekxkZy1EZXNia3o1UTM5WDdwRFh6WDNNSVlKT3ZtaGdrbGY3anJ3Uk1OcXExVFh1TXlBeUgxb3dwQ1A2TzRYaXRsSzNRenNaemhBV1lmblRTQzljY0NiS0V6STJpQ083eUxVSlg5RXZoQWFJ?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T16:24:16Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Yahoo Finance",
+      "title": "Novavax Plunges After FDA Hold on Flu, Covid Vaccine Work - Yahoo Finance",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNYUFGOXc2Nk4tY0hIQ0RUdl9EUGQ3YzBxZ1FfWFdLTmdrVjI5bmpVdVByVTZmQU1UZDNsY3BJMFhvcEhFaDdOLWUyY2V0S0VRMmhmbGRYd3BmQWpQRHRId0RfclIzb2pMT3ZtSmlKUzl5dGM2SkJUUnRFQ19GVWNmbTBrRjQ?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T16:23:10Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Reuters",
+      "title": "ASML draws investor scrutiny after warning shocks global chip markets - Reuters",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQS3Q3WTcyYVN5dTFvcVhVOHcwM3B5dUNlLW82dHlBUFFhTkNvN1labnhYcUJzTEtBem1pQzhOLWhDRHNQaHVBaTVVX3kwaC05UFJzaDJxX05rUDFFZE56dmVTQmE5S0Vkd3ZkdmZxYndxUkJZTmxOajFnRFZCS1JtdUlDSFBUTXpXWWttZXBObVVtZw?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T15:01:28Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "CBS News",
+      "title": "Delta Air Lines is giving its cabin interiors a new look. Here's a peek inside. - CBS News",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQlprVUNoMEJ5S1FHbDMyUHNLN3QwVXhqSEhMMEtXYl9fT25hWDVES2QwaWJNSkFTdVpHMzY1R0RaWHA4aWJxOU9JbXBGNUpLbWxFb3liU3ZiOGZxRjVicDJuYzF5cnRta3RteUF4eEJHcDI2TFpLTFQ0ZzJWNEZXb3NDRQ?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T14:54:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "CNBC",
+      "title": "Ulta Beauty shares fall as company sees 'headwinds' in beauty industry - CNBC",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOektYNWhWbGpqYklSQm0zUUNnRHRvQloxNS1tM05iRXVBcEVyUWxKbE52V3VyZlNqbXJpYUxpRlFIQVhRZzRfQTQyWGZsWFl4TkpNelBWdFVFbFl2U3FnOHRiRWRNSXhHREg1TWo1TG1TM0FYeVl0YVdFUk5qQzlGdDA2LXEzcHBPUXY3cTg5eURGXzdGaE41RENXdG5KQnhQRm1qbzhfVG7SAa4BQVVfeXFMTWdPMHBVclNDUjdYZm9XTFJBLWcyel93a25zYmtmMFRFLUFKV2dRZ0hhUjc2MVlhWU8xc0V3R1l1QWhuRl95TVFqWkR5ZW84ODRLWGdpaGNTSEpxNF9SUUo0WS00NHg1bzgyXzNIU21fSjM5SDRKcm05M2VpUWJaZGNUQUwzdG1MQkRkNDFtc0owcVJvcFhOY0ZzTUdYNVk0WmFjMWg3ZVlBenR2SEtB?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T14:14:16Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "WIRED",
+      "title": "Trumpcoin Launches With a Whimper - WIRED",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9NbWh1ekt2VnRtSVhHX2JqeUNYcDQ0dnZFdjFkNmZveHJ0bkFRUnNtWGFWVERBS2dxWUs4OUs1YXVHN0FjbXVtLWtjQWlsZHN4MzZEVHNLWm0zUjh6emNZbm1LdUcxWXpPN0hsR1hXM3k5Unp5Q2NOS2VkRjhBQQ?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T13:53:23Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Barron's",
+      "title": "Nvidia Stock Rising After ASML Earnings Sparked AI Market Panic - Barron's",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1pY3pic2ZrbXpFQTFlTnFzMzM1NDA5TjJRN1E0LTlFNHhGSzRlcmFYeFUtU2QxR0d3X0RHZDBPLUE0WjlaWld4YmZ6UkNyRGZBV0tfSlJUVnNGaHJZczVKWWdBUkRlaENrd1JHSkx1NUdhMXpRS0x6NlJSb9IBgAFBVV95cUxPRFdYaUh0SUNRc0ppUjBqdXVGSUJ1eENxWjdTdFZQTEhDcFZmU2dPMk1xc0t1Y0hBYmIybzh4Q0VqYnJBRGh2MkhSU05rMkhBWkdCdVRLeDBLVHBacTVRZHdINlFpdVJ0MVpyTTJIR2pTc1dBRHZ6Q0NHSDVWRDhJeg?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T13:48:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "CNBC",
+      "title": "Chevrolet aims to defend highly profitable SUV market position with updated Tahoe, Suburban - CNBC",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOUhKNzk1VjBVdFF5T1gtTFhOak9BaFJYUVBWVW9mS1BVN2l3VXI3VlU4V0FaUTBzVW51MjZCX1Vmb2ktYXItZlFzNU1udEVMdEFmdXg3X0JTeTc1QjR2Q1RBUlVnZU84MUxrc2tkSEZGOGJxbkJrak1NRDBGRVNyVDNTcndnZ9IBiwFBVV95cUxOWE1rSDlxeWpDZWVmcGtOTUx0WTA2TW9uODhDbTlyeGEwSG4xNFlVLWJRdm5QZWtTVThCa3Eyc0FySy1qZ0tqY3NGM0JGNXRTdi10OVlxVXpYZ1FHT3NpeG9kQjhRTTBnQTFsNkVxLTRySTc0dnV5b280Q3g0MkJUM3dSRlJDbDlvbHJz?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T13:46:37Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "The New York Times",
+      "title": "Lufthansa Fined $4 Million for Stopping Jewish Passengers From Boarding Plane - The New York Times",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOajdhNTFWNXVHUW1ndjFvcjd4dmdieHZOWlJtcmNWWDRCYU9SMVF4RGxRdHFDb2JJcDJ4VFQ1YjBoRU1LMWRuZ0ptbDFUNlVTNDlnQzlaU3lVVXJlUzFDLWxBS0RJRWZOOUp0czcyVGFxUG5pR1oxandSVkNCMDRzX01Vel8tUHpOOHFScQ?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T13:29:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "CNBC",
+      "title": "GM to invest $625 million in joint venture to mine EV battery raw materials in U.S. - CNBC",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MNmJBS2NrTkV2MnZ5NUtDa3N2Qm1UNEtoMnlpblUyYzlyN09ZVVZFU2I2dFAxMGtobzJJbkM0VUMzajlpNldrZUM5dkdfMmNyMlJjckxDeXJqcmFhQUFfZ25JSm16WmF2ampjNnZqWWpxdHVSVFR6S2dB0gF_QVVfeXFMTmh3TjNWLXFiaWlROWRrUEx5dmc0MWRVblNZbGF1akM0eUg4SFp1dnlSN3U2Zkg4STQ1bVRsRGdoSzNhMWVnek1sd29LOTlfVW9vbzl5cEJJYXIwQXJsbHZUNTN1VWdEbzZQRUhielVzTldrOFV5SW5xXy1lRkJpTQ?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T12:50:58Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "MarketWatch",
+      "title": "How this unique ETF beats the market without Nvidia and other Big Tech stocks - MarketWatch",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUjJ6cUxfM2tDOU1zRVlDbkFqTF95WHBwRzlHYlVTM1Y5WlpnX0R5MWxnYmJnV21KcW5xNlFTV3RHUzl5N056VThxUjhIaVYtakJBX2hzT0o5MG1CNEtRLVRVci1jbmktbUVHY3o5cWpLeVpJekZUd0tOMjZta1FkS2VvZ1JWWGhwRDVCcm5BRlZDQ0VsTGcxZnFCbjNtaDI4cWVjajJ2TnhJc253ck14dDFHZUpqakZ0TUJTZTZiU211RVY4bUFUclQ3Vmk5TC1iMUtHT2Q3OG1ld2s3STd0ddIB5gFBVV95cUxQV05tbktSY3ExdmE5MGxFbzdmN1p4X3NfS2hyYmIyRWlMNkVLOEFGcWhIVHRDdl9UbnNiZ1ptRjhzUVI2bnFUYV9wVWFqbUlKdUZhQV9VSkZpYjNGUVhnZ3R4aV81SlJOUHRpRm1ZVXh1RGRaQlVyWWYwSWpxXzlzaVFJYnRGSU9rSW54eFFhanc0NHZndVlGRktVdmlLbXlNbllpSXlLTVQ3bUdiOHNqbUpXOW1oTDJvakNCWWdVbDkyTGRtNFVxTUFiVS1YOE1idjVVUWU0OEZfeXNnclFXTlctTkFSdw?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T12:47:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "Yahoo Finance",
+      "title": "Investment banking surge at Morgan Stanley solidifies Wall Street revival - Yahoo Finance",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOOU5GQk1pSGs3b2hmUFdxOGlERE52Wl8zS0hNbUxqVnVnU09tM1ZHMlBYUGJpNnVtbDRUM1B3RE9NUkJwbGNNeUNDRVRWVEhvRHhZWTVFWmx5M2IxU2hTc2wweTI0Z0J0bFFFZFNZV1k3NklTMmF3UW9rbUFmMHB1aGpfU2xBMTA5RWdWSUdTUzRKNFU1Q2hwWkhBUHo1QmpNN1o3ZGtETVJWZk5UbWJvamxBMmd0SHk4T0NF?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T12:12:19Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "CNN",
+      "title": "America revolted against Tostitos and Ruffles. Now they’re making big changes - CNN",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPekpUVF9GWlBpeUYyampwdGFTVENyVklvYUd3dW9aT2dzbE5hUmxMV1U0ZG9fa1VFYlVvSC1vbTFMdklVQ0NaNUhkZVk4NzJpRjRMS0lRYURjVEc1THZTZ1Y5ck1oN1Zjb0tSSjRrZEFRZWJxRml6eVh2bHhFN0pFMG15c2NDYUtUa09oVUN30gGEAUFVX3lxTFBWU0ZCMjEwVDF5M1J1ZHM3Z05ONkxyazZtMHhSakxvZUc4dWhYUzMxUXdtNHNhV09Ub2tkX1d4cl9EQ0hFd2NzRm1XNUxPZzR0WS1MVzNDcmMyeUlSTy1Mb0JRNXpmMWx1emtTRXdFUTRxNkY2T0Vtal9YRlA4UEdxYUFxTA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T12:08:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": "CNN",
+      "title": "Bed Bath & Beyond is returning to brick and mortar stores — at a rival - CNN",
+      "description": null,
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYTJULWFUTjN1cS1MWnhsZnhSVUlDYUhleHJqT2JmOHVXakJJMXJyMm0zNmdVYW5DeWh0dzBnYVBreno5Y2hkal9VWWJQY1U1T1c2OFE1YUszQlFyYnZsS2s5cVRvTmFqcEpNN3BXd1E5MG1LcWkyYnIybklUUWNBNG9hMzhxdXdhNTNQdnc1UEV6dmhLQ3dnZtIBjwFBVV95cUxPVERBUTNNczl3VXZXOENQdEoxVGk4WU9XYU80R2REMVotelRyZzRlU1l4Q21hUVFPM05FS3Jud0NERnFKQzU3c0cyRVltZWlXZ3lYdHR2QzhKbGtxclBQcjdHcV9oY0stLUZ3YTVqYnd5SzUwMjhZeEpzbjRTZ3BLNmJtSjBHNU5DaXdobVZjUQ?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2024-10-16T12:05:00Z",
+      "content": null
+    }
+  ]
+}

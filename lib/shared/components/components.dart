@@ -62,3 +62,64 @@ Widget defaultTextFormField({
         ),
       ),
     );
+
+Widget buildArticleItem(Map model) => Padding(
+      padding: const EdgeInsets.all(10.0),
+      child: Row(
+        children: [
+          Container(
+            width: 130,
+            height: 130,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(15),
+              image: DecorationImage(
+                image: NetworkImage(
+                  model['urlToImage'] ?? "https://media.wired.com/photos/5b17381815b2c744cb650b5f/1:1/w_1678,h_1678,c_limit/GettyImages-134367495.jpg",
+                ),
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+          const SizedBox(
+            width: 20,
+          ),
+           Expanded(
+            child: SizedBox(
+              height: 130,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Expanded(
+                    child: Text(
+                      model['title'],
+                      style: const TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.w600,
+                      ),
+                      maxLines: 4,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
+                  Text(
+                    model['publishedAt'],
+                    style: const TextStyle(
+                      fontSize: 15,
+                      color: Colors.grey,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+
+Widget myDivider() => Padding(
+      padding: const EdgeInsetsDirectional.symmetric(horizontal: 10),
+      child: Container(
+        height: 1,
+        width: double.infinity,
+        color: Colors.grey,
+      ),
+    );
