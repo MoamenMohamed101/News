@@ -25,6 +25,7 @@ class NewsLayout extends StatelessWidget {
                 IconButton(
                   onPressed: () {
                     ChangeThemeCubit.get(context).changeThemeColor();
+
                   } ,
                   icon: const Icon(Icons.brightness_4_outlined),
                 ),
