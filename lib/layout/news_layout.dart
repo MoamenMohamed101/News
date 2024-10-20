@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:news/layout/change_theme_cubit.dart';
 import 'package:news/layout/cubit/cubit.dart';
 import 'package:news/layout/cubit/states.dart';
 
@@ -22,9 +23,15 @@ class NewsLayout extends StatelessWidget {
               title: Text(cubit.appBarTexts[cubit.currentIndex]),
               actions: [
                 IconButton(
+                  onPressed: () {
+                    ChangeThemeCubit.get(context).changeThemeColor();
+                  } ,
+                  icon: const Icon(Icons.brightness_4_outlined),
+                ),
+                IconButton(
                   onPressed: () {},
                   icon: const Icon(Icons.search),
-                )
+                ),
               ],
             ),
             bottomNavigationBar: BottomNavigationBar(

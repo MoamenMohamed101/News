@@ -33,3 +33,5 @@ class NewsGetSportsDataErrorState extends NewsStates {
 
   NewsGetSportsDataErrorState(this.error);
 }
+
+class NewsChangeColorThemeState extends NewsStates {}

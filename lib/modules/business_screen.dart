@@ -1,3 +1,4 @@
+import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news/layout/cubit/cubit.dart';
@@ -12,22 +13,31 @@ class BusinessScreen extends StatelessWidget {
     return BlocConsumer<NewsCubit, NewsStates>(
       builder: (BuildContext context, NewsStates state) {
         NewsCubit cubit = NewsCubit.get(context);
-        return state is! NewsGetBusinessDataLoadingState
-            ? ListView.separated(
-                physics: const BouncingScrollPhysics(),
-                itemBuilder: (BuildContext context, int index) =>
-                    buildArticleItem(cubit.business[index]),
-                separatorBuilder: (BuildContext context, int index) =>
-                    myDivider(),
-                itemCount: cubit.business.length,
-              )
-            : const Center(
-                child: CircularProgressIndicator(
-                  color: Colors.deepOrange,
-                ),
-              );
+        return ConditionalBuilder(
+          condition: state is! NewsGetBusinessDataLoadingState,
+          builder: (BuildContext context) => ListView.separated(
+            itemBuilder: (BuildContext context, int index) => buildArticleItem(cubit.business[index]),
+            separatorBuilder: (BuildContext context, int index) => myDivider(),
+            itemCount: cubit.business.length,
+          ),
+          fallback: (BuildContext context) => const CircularProgressIndicator(
+            color: Colors.deepOrange,
+          ),
+        );
       },
       listener: (BuildContext context, NewsStates state) {},
     );
   }
 }
+// state is! NewsGetBusinessDataLoadingState ? ListView.separated(
+//                 physics: const BouncingScrollPhysics(),
+//                 itemBuilder: (BuildContext context, int index) =>
+//                     buildArticleItem(cubit.business[index]),
+//                 separatorBuilder: (BuildContext context, int index) =>
+//                     myDivider(),
+//                 itemCount: cubit.business.length,
+//               ) : const Center(
+//                 child: CircularProgressIndicator(
+//                   color: Colors.deepOrange,
+//                 ),
+//               );
