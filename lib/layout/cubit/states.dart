@@ -34,4 +34,14 @@ class NewsGetSportsDataErrorState extends NewsStates {
   NewsGetSportsDataErrorState(this.error);
 }
 
+class NewsGetSearchDataLoadingState extends NewsStates {}
+
+class NewsGetSearchDataSuccessState extends NewsStates {}
+
+class NewsGetSearchDataErrorState extends NewsStates {
+  final String error;
+
+  NewsGetSearchDataErrorState(this.error);
+}
+
 class NewsChangeColorThemeState extends NewsStates {}

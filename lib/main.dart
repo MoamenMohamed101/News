@@ -4,6 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:news/layout/change_theme_cubit.dart';
 import 'package:news/layout/change_theme_state.dart';
+import 'package:news/layout/cubit/cubit.dart';
 import 'package:news/layout/news_layout.dart';
 import 'package:news/shared/network/local/cache_helper.dart';
 import 'package:news/shared/network/remote/Dio_Helper.dart';
@@ -32,8 +33,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) =>
-          ChangeThemeCubit()..changeThemeColor(fromShared: isDark),
+      create: (context) => ChangeThemeCubit()..changeThemeColor(fromShared: isDark),
       child: BlocConsumer<ChangeThemeCubit, ChangeThemeState>(
         listener: (context, state) {},
         builder: (context, state) {

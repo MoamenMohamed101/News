@@ -12,20 +12,7 @@ class SportsScreen extends StatelessWidget {
     return BlocConsumer<NewsCubit, NewsStates>(
       builder: (BuildContext context, NewsStates state) {
         NewsCubit cubit = NewsCubit.get(context);
-        return state is! NewsGetSportsDataLoadingState
-            ? ListView.separated(
-          physics: const BouncingScrollPhysics(),
-          itemBuilder: (BuildContext context, int index) =>
-              buildArticleItem(cubit.sports[index]),
-          separatorBuilder: (BuildContext context, int index) =>
-              myDivider(),
-          itemCount: cubit.sports.length,
-        )
-            : const Center(
-          child: CircularProgressIndicator(
-            color: Colors.deepOrange,
-          ),
-        );
+        return itemOfScreens(context:context, list: cubit.sports);
       },
       listener: (BuildContext context, NewsStates state) {},
     );

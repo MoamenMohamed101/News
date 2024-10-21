@@ -13,7 +13,15 @@ class BusinessScreen extends StatelessWidget {
     return BlocConsumer<NewsCubit, NewsStates>(
       builder: (BuildContext context, NewsStates state) {
         NewsCubit cubit = NewsCubit.get(context);
-        return ConditionalBuilder(
+        return itemOfScreens(context: context, list: cubit.business);
+      },
+      listener: (BuildContext context, NewsStates state) {},
+    );
+  }
+}
+
+/*
+ConditionalBuilder(
           condition: state is! NewsGetBusinessDataLoadingState,
           builder: (BuildContext context) => ListView.separated(
             itemBuilder: (BuildContext context, int index) => buildArticleItem(cubit.business[index]),
@@ -24,20 +32,4 @@ class BusinessScreen extends StatelessWidget {
             color: Colors.deepOrange,
           ),
         );
-      },
-      listener: (BuildContext context, NewsStates state) {},
-    );
-  }
-}
-// state is! NewsGetBusinessDataLoadingState ? ListView.separated(
-//                 physics: const BouncingScrollPhysics(),
-//                 itemBuilder: (BuildContext context, int index) =>
-//                     buildArticleItem(cubit.business[index]),
-//                 separatorBuilder: (BuildContext context, int index) =>
-//                     myDivider(),
-//                 itemCount: cubit.business.length,
-//               ) : const Center(
-//                 child: CircularProgressIndicator(
-//                   color: Colors.deepOrange,
-//                 ),
-//               );
+*/
