@@ -1,5 +1,6 @@
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
+import 'package:news/modules/webview_screen.dart';
 
 Widget defaultButton({
   bool isUpper = true,
@@ -70,56 +71,66 @@ Widget defaultTextFormField({
       ),
     );
 
-Widget buildArticleItem(Map model) => Padding(
-      padding: const EdgeInsets.all(10.0),
-      child: Row(
-        children: [
-          Container(
-            width: 130,
-            height: 130,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(15),
-              image: DecorationImage(
-                image: NetworkImage(
-                  model['urlToImage'] ??
-                      "https://media.wired.com/photos/5b17381815b2c744cb650b5f/1:1/w_1678,h_1678,c_limit/GettyImages-134367495.jpg",
-                ),
-                fit: BoxFit.cover,
-              ),
-            ),
+Widget buildArticleItem(Map model, context) => InkWell(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (BuildContext context) => WebViewScreen(url: model["url"]),
           ),
-          const SizedBox(
-            width: 20,
-          ),
-          Expanded(
-            child: SizedBox(
+        );
+      },
+      child: Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: Row(
+          children: [
+            Container(
+              width: 130,
               height: 130,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Expanded(
-                    child: Text(
-                      model['title'],
-                      style: const TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.w600,
-                      ),
-                      maxLines: 4,
-                      overflow: TextOverflow.ellipsis,
-                    ),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(15),
+                image: DecorationImage(
+                  image: NetworkImage(
+                    model['urlToImage'] ??
+                        "https://media.wired.com/photos/5b17381815b2c744cb650b5f/1:1/w_1678,h_1678,c_limit/GettyImages-134367495.jpg",
                   ),
-                  Text(
-                    model['publishedAt'],
-                    style: const TextStyle(
-                      fontSize: 15,
-                      color: Colors.grey,
-                    ),
-                  ),
-                ],
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
-          ),
-        ],
+            const SizedBox(
+              width: 20,
+            ),
+            Expanded(
+              child: SizedBox(
+                height: 130,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Expanded(
+                      child: Text(
+                        model['title'],
+                        style: const TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.w600,
+                        ),
+                        maxLines: 4,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ),
+                    Text(
+                      model['publishedAt'],
+                      style: const TextStyle(
+                        fontSize: 15,
+                        color: Colors.grey,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
 
@@ -142,16 +153,18 @@ void navigateTo(context, widget) => Navigator.push(
 Widget itemOfScreens({
   required BuildContext context,
   required List<dynamic> list,
-})=>ConditionalBuilder(
-  condition: list.isNotEmpty,
-  builder: (BuildContext context) => ListView.separated(
-    itemBuilder: (BuildContext context, int index) => buildArticleItem(list[index]),
-    separatorBuilder: (BuildContext context, int index) => myDivider(),
-    itemCount: list.length,
-  ),
-  fallback: (BuildContext context) => const Center(
-    child: CircularProgressIndicator(
-      color: Colors.deepOrange,
-    ),
-  ),
-);
+}) =>
+    ConditionalBuilder(
+      condition: list.isNotEmpty,
+      builder: (BuildContext context) => ListView.separated(
+        itemBuilder: (BuildContext context, int index) =>
+            buildArticleItem(list[index], context),
+        separatorBuilder: (BuildContext context, int index) => myDivider(),
+        itemCount: list.length,
+      ),
+      fallback: (BuildContext context) => const Center(
+        child: CircularProgressIndicator(
+          color: Colors.deepOrange,
+        ),
+      ),
+    );

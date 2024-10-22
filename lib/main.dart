@@ -4,18 +4,15 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:news/layout/change_theme_cubit.dart';
 import 'package:news/layout/change_theme_state.dart';
-import 'package:news/layout/cubit/cubit.dart';
 import 'package:news/layout/news_layout.dart';
 import 'package:news/shared/network/local/cache_helper.dart';
 import 'package:news/shared/network/remote/Dio_Helper.dart';
-
 import 'shared/bloc_observer.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await CacheHelper.init();
   bool? isDark = CacheHelper.getValue();
-  print(isDark);
   Bloc.observer = MyBlocObserver();
   DioHelper.init();
   runApp(
